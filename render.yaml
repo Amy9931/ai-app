@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ai-app
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: GEMINI_API_KEY
+        sync: false
