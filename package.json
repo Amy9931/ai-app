@@ -1,0 +1,14 @@
+{
+  "name": "ai-chat-app",
+  "version": "1.0.0",
+  "description": "Standalone AI chat app powered by Google Gemini",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "express": "^4.19.2"
+  }
+}
